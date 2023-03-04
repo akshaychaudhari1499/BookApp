@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:white;
+    
+}.result{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+img{
+    height:21rem;
+    width: 16rem;
+}
+#card{
+
+    height:fit-content;
+    width:20rem;
+    padding: 1rem;
+    margin: 2rem;
+   font-size: smaller;
+    border: 1px solid white;
+    border-radius: 1rem;
+    justify-content: center;
+}
