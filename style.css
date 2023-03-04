@@ -131,6 +131,11 @@ form{
     font-size: smaller;    
    
 }
+.rectangle{
+   
+    font-size:0.6rem;
+    justify-content: space-between;
+}
 #search{
     width:90vw;
     padding: 1rem;
@@ -179,6 +184,11 @@ form{
     font-size: smaller;    
     border-radius: 1rem;
   
+}
+
+.rectangle{   
+    font-size:1.3rem;
+    justify-content: space-between;
 }
 #box-search{
     display: grid;
