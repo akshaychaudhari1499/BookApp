@@ -132,7 +132,6 @@ form{
    
 }
 .rectangle{
-   
     font-size:0.6rem;
     justify-content: space-between;
 }
@@ -186,6 +185,7 @@ form{
   
 }
 
+
 .rectangle{   
     font-size:1.3rem;
     justify-content: space-between;
@@ -193,14 +193,13 @@ form{
 #box-search{
     display: grid;
     place-items: center;
-    gap: 2rem;
+    gap: 2rem;    
     grid-template-columns: 1fr 1fr;
 }
 #history-box{
-    height:fit-content;
-    width:90vw;
+    height:fit-content;   
     margin-bottom:3rem ;       
-    font-size: smaller;
+    font-size: medium;
     border: 1px solid white;
     border-radius: 1rem;
     justify-content: center;
