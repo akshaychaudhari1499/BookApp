@@ -20,10 +20,16 @@ img{
     background-color: aqua;
    
 }
+.book-info{
+    margin: 1rem;
+  
+    line-height: 1.5;
+}
 #card{    
    margin: 2rem;
    font-size: smaller;
    justify-content: center;
+  
 }
 .rectangle{
     display: flex;

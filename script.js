@@ -36,8 +36,8 @@ function(e){
             books.map(book=>{
                 const textnode = document.createElement('div');
                 textnode.id = "box";                
-                textnode.innerHTML =`<div id='card'><div id='img'><img src="${book.volumeInfo.imageLinks.thumbnail}"></div><h2>Title:${book.volumeInfo.title}</h2><h2>Author : ${book.volumeInfo.authors}</h2>
-                <h2>Page Count : ${book.volumeInfo.pageCount}</h2><h2>Publisher:${book.volumeInfo.publisher}</h2>
+                textnode.innerHTML =`<div id='card'><div id='img'><img src="${book.volumeInfo.imageLinks.thumbnail}"></div><div class='book-info'><h2>Title : ${book.volumeInfo.title}</h2><h2>Author : ${book.volumeInfo.authors}</h2>
+                <h2>Page Count : ${book.volumeInfo.pageCount}</h2><h2>Publisher : ${book.volumeInfo.publisher}</h2></div>
                 </div>`;
                         result.appendChild(textnode)                     
                         console.log(data)
